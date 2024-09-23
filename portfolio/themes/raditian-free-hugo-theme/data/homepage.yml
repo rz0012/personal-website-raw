@@ -1,0 +1,289 @@
+
+# homepage
+homepage:
+  head:
+    title: "Home | Ram"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I’m Ram Zaveri."
+  subtitle: "Aspiring AGI scientist"
+  description: "I work as a Research Assistant in the <a target='_blank' href='https://vision.csee.wvu.edu/'>Vision and Learning Group</a>, a research group at West Virginia University. We focus on new and fundamental problems and applications in computer vision and machine learning research and develop novel techniques for endowing machines with high-level visual processing capabilities, much like humans use their visual system for action."
+  image:
+    x: "img/showcase/hand.png"
+    _2x: "img/showcase/hand.png"
+  imageMobile:
+    x: "img/showcase/hand.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "rz0012@mix.wvu.edu"
+    URL: "mailto:rz0012@mix.wvu.edu"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/ramzaveri/"
+
+    - icon: "github"
+      URL: "https://github.com/rz0012"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/ram_zaveri"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/@ramjitendrabhaizaveri2750"
+
+    - icon: "scholar"
+      URL: "https://www.instagram.com/teamradity/"
+
+# about
+about:
+  enable: true
+  title: About Me
+  content: '
+    <p class="lead">
+    My current area of focus is studying literature on biological systems, specifically, the underlying principles behind adaptability in ever changing environment. 
+    Understanding this will give us insights into building more robust artificial systems, potentially AGI systems. 
+    </p>
+    
+    <p class="lead">
+    Beyond that, I enjoy cooking, hiking, camping, reading, writing poems and science fiction, and listening to podcasts related to the Advancement of Human Civilization.
+    </p>
+    '
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/ramzaveri/"
+  image:
+    x: "img/who-am-i/profile.jpeg"
+    _2x: "img/who-am-i/profile.jpeg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "West Virginia University"
+      year: "2023-2025"
+      degree: "Master of Science (MS), Computer Science"
+
+    - university: "West Virginia University"
+      year: "2019-2023"
+      degree: "Bachelor of Science (BS), Computer Science; Minor, Biology with Neuroscience emphasis"
+
+# experience
+experience:
+  enable: true
+  title: "Research Experience"
+  description: "I am a Computer Science Master student with almost four years of experience in Machine Learning research in Computer Vision. My research focuses on developing efficient adaptive algorithms for real-world applications."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/files/Ram_Zaveri_CV.pdf"
+  button3: 
+    icon: "icon-arrow-right"
+    btnText: "All Projects"
+    URL: "/experience"
+  # items:
+  #   - title: "Online Continual Learning for Time-Dependent Data"
+  #     company: "Vision and Learning Group"
+  #     duration: "March 2024 - Present"
+
+  #   - title: "Robust 3D Cell Tracking"
+  #     company: "Vision and Learning Group"
+  #     duration: "September 2023 — Present"
+
+  #   - title: "Non-Convex Cell Segmentation"
+  #     company: "Vision and Learning Group"
+  #     duration: "August 2023 — December 2023"
+
+publication:
+  enable: true
+  title: "Publications"
+  items:
+    - publication: "S. Patel*, R. J. Zaveri*, S. Chambers, Z. Randhawa, and G. Doretto,“Online Stochastic Optimization for Data with Temporal Dependencies,” In European Conference on Computer Vision Workshops (ECCVW), 2024."
+      year: "2024"
+    
+    - publication: "R. J. Zaveri*, V. Brume* and G. Doretto,“Few-Shot Adaptation for Morphology-Independent Cell Instance Segmentation,” 2024 IEEE International Symposium on Biomedical Imaging (ISBI), Athens, Greece, 2024, pp. 1-5, doi: 10.1109/ISBI56570.2024.10635320."
+      year: "2024"
+
+    - publication: "M. R. Keaton, R. J. Zaveri, and G. Doretto, “CellTranspose: Few-Shot Domain Adaptation for Cellular Instance Segmentation,” in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Jan. 2023, pp. 455–466.."
+      year: "2023"
+
+    - publication: "M. R. Keaton, R. J. Zaveri, M. Kovur, C. Henderson, D. A. Adjeroh, and G. Doretto. Fine-Grained Visual Classification of Plant Species In The Wild: Object Detection as A Reinforced Means of Attention. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2021."
+      year: "2021"
+
+  
+awards:
+  enable: true
+  title: "Awards"
+  items:
+    - award: "Upsilon Pi Epsilon Scholarship Award"
+      year: "2024"
+
+    - award: "The 9 th Annual BRAIN Initiative Meeting: Trainee Highlight Award Honorable Mention"
+      year: "2023"
+
+    - award: "Outstanding Senior Award (class of 2023)"
+      year: "2023"
+
+    - award: "Upsilon Pi Epsilon Dan drew Award (with the highest distinction)"
+      year: "2023"
+
+    - award: "Office of Global Affairs Merit Award"
+      year: "2021-2023"
+
+    - award: "Engineering Research Award"
+      year: "2019-2023"
+
+    - award: "Engineering Excellence Award"
+      year: "2019-2023"
+
+    - award: "President’s List"
+      year: "2019-2023"
+
+    - award: "Upsilon Pi Epsilon Scholarship Award"
+      year: "2022"
+
+    - award: "Arts & Sciences Departmental Award"
+      year: "2021-2022"
+
+    - award: "Institute of International Education Award"
+      year: "2021"
+
+    - award: "Research Apprenticeship Program graduate"
+      year: "2020"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formspree.io/f/myzgqwjw"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+1 (681) 285 2451"
+  email:
+    title: "Email"
+    email: '<a href="mailto:rz0012@mix.wvu.edu">rz0012@mix.wvu.edu</a>'
+  address:
+    title: "Location"
+    address: "Morgantown, West Virginia (USA)"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
