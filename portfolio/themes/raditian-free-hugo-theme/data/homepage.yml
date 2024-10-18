@@ -80,7 +80,7 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/ramzaveri/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
@@ -159,6 +159,19 @@ awards:
     - award: "Research Apprenticeship Program graduate"
       year: "2020"
 
+
+reviews:
+  enable: true
+  title: "Reviews"
+  items:
+    - year: 2025
+      reviews: WACV, AAAI
+    
+    - year: 2024
+      reviews: ECCV, MICCAI, ISBI, CVPR, WACV, ICLR, ICASSP
+
+    - year: 2023 
+      reviews: WACV, BMVC, ICCV, MICCAI
 
 
 # Client & Work

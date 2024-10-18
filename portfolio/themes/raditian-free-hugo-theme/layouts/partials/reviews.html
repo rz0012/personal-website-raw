@@ -1,0 +1,21 @@
+{{ if .Site.Data.homepage.reviews.enable }}
+<section class="section section--border-bottom rad-animation-group", id="reviews">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.reviews.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.reviews.items }}
+                    <div class="col-12 col-sm-12 mb-2 mb-sm-5">
+                        <div class="reviews">
+                            <div class="year">{{ .year }}</div>
+                            <div class="reviews">{{ .reviews }}</div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

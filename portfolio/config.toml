@@ -45,9 +45,16 @@ publishDir = "docs"
   weight = 5
 
   [[menu.header]]
+  name = "Reviews"
+  URL = "index.html#reviews"
+  weight = 6
+
+  [[menu.header]]
   name = "Contact"
   URL = "index.html#contact"
-  weight = 6
+  weight = 7
+
+  
 
 
   [[menu.footer]]
@@ -74,7 +81,7 @@ publishDir = "docs"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "publication", "awards", "contact"]
+  sections = ["showcase", "about", "education", "experience", "publication", "awards", "reviews", "contact"]
   googleTagManagerID = "GTM-NVN2BJG" # Google Analytics works with Google Tag Manager
   homepageExperienceCount = 3
 
