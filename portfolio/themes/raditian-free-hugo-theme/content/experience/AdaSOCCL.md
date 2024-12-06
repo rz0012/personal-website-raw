@@ -1,5 +1,5 @@
 ---
-date: 2024-04-01T00:00:00+01:00
+date: 2024-06-01T00:00:00+01:00
 draft: false
 title: "Co-Lead | Online Continual Learning"
 jobTitle: "Co-Lead | Online Continual Learning"

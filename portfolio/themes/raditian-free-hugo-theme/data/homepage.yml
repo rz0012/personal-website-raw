@@ -8,7 +8,7 @@ homepage:
 showcase:
   enable: true
   title: "Hi, I’m Ram Zaveri."
-  subtitle: "Aspiring AGI scientist"
+  subtitle: #"Aspiring AGI scientist"
   description: "I work as a Research Assistant in the <a target='_blank' href='https://vision.csee.wvu.edu/'>Vision and Learning Group</a>, a research group at West Virginia University. We focus on new and fundamental problems and applications in computer vision and machine learning research and develop novel techniques for endowing machines with high-level visual processing capabilities, much like humans use their visual system for action."
   image:
     x: "img/showcase/hand.png"
@@ -43,8 +43,7 @@ about:
   title: About Me
   content: '
     <p class="lead">
-    My current area of focus is studying literature on biological systems, specifically, the underlying principles behind adaptability in ever changing environment. 
-    Understanding this will give us insights into building more robust artificial systems, potentially AGI systems. 
+    I am a researcher with a background in Machine Learning and Computer Vision. I am passionate about investigating underlying principles behind learning and adaptability in biological systems to build Neuromimetic Artificial Systems. My professional goal is to bridge the gap between Neuroscience and Artificial Intelligence to assist with neurological disorders or, rather, enhance our cognitive abilities.
     </p>
     
     <p class="lead">
@@ -56,8 +55,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/ramzaveri/"
   image:
-    x: "img/who-am-i/profile.jpeg"
-    _2x: "img/who-am-i/profile.jpeg"
+    x: "img/who-am-i/profile.jpg"
+    _2x: "img/who-am-i/profile.jpg"
 
 # education
 education:
@@ -106,6 +105,9 @@ publication:
   enable: true
   title: "Publications"
   items:
+    - publication: "R. J. Zaveri, S. Patel, Y. Gu, and G. Doretto, “Improving Accuracy and Generalization for Efficient Visual Tracking,” in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Feb. 2025."
+      year: "2025"
+
     - publication: "S. Patel*, R. J. Zaveri*, S. Chambers, Z. Randhawa, and G. Doretto,“Online Stochastic Optimization for Data with Temporal Dependencies,” In European Conference on Computer Vision Workshops (ECCVW), 2024."
       year: "2024"
     
@@ -123,13 +125,28 @@ awards:
   enable: true
   title: "Awards"
   items:
+    - award: "Graduate School, WVU Research Corporation Funding"
+      year: "2024"
+
+    - award: "Engineering Departmental Scholarship"
+      year: "2024"
+
+    - award: "The Second Best Presentation Award at the WVU Graduate Symposium"
+      year: "2024"
+
     - award: "Upsilon Pi Epsilon Scholarship Award"
       year: "2024"
 
     - award: "The 9 th Annual BRAIN Initiative Meeting: Trainee Highlight Award Honorable Mention"
       year: "2023"
 
-    - award: "Outstanding Senior Award (class of 2023)"
+    - award: "Honors Foundations Scholar"
+      year: "2023"
+
+    - award: "Summa Cum Laude"
+      year: "2023"
+
+    - award: "WVU Foundation Outstanding Senior (class of 2023)"
       year: "2023"
 
     - award: "Upsilon Pi Epsilon Dan drew Award (with the highest distinction)"
@@ -165,7 +182,7 @@ reviews:
   title: "Reviews"
   items:
     - year: 2025
-      reviews: WACV, AAAI
+      reviews: WACV, AAAI, ISBI
     
     - year: 2024
       reviews: ECCV, MICCAI, ISBI, CVPR, WACV, ICLR, ICASSP
